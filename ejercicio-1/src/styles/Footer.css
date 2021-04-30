@@ -1,0 +1,65 @@
+.footer{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    background-color: rgba(22, 22, 22, 0.253);
+    width: 100%;
+    height: 100px;
+    margin-top: 8%;
+    border-top: 1px groove #fff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.first{
+  display:inline-block;
+  height: 40px;
+}
+
+#git-icon{
+  color:#fff;
+}
+
+#git-icon:hover{
+  color:rgb(153, 153, 153);
+}
+
+#linked-icon{
+  color:#fff;
+}
+
+#linked-icon:hover{
+  color: rgb(130, 149, 255);
+}
+
+#port-icon{
+  color:#fff;
+}
+#port-icon:hover{
+  color: rgb(255, 137, 137);
+}
+
+#parrafo{
+  text-align: right;
+  font-size: 12px;
+  display:block;
+  margin-top:-50px;
+  margin-right: 80px;
+}
+
+.blue-font{
+  color:rgb(0, 225, 255);
+}
+
+@media (max-width:980px){
+  #parrafo{
+    display: none;
+  }
+}
+
+@media (min-height:720px){
+  .footer{
+    position: fixed;
+    bottom: 0;
+  }
+}
