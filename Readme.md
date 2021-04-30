@@ -1,6 +1,6 @@
 # User List APP
 
-1) Open api-login and run it with 'npm start', its gonna run in port 3001.
+1) Open login-api folder and run it with 'npm start', its gonna run in port 3001.
 
 2) Open ejercicio-1 folder and run it with 'npm start' too, the app its gonna run in port 3000. 
 
